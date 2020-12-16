@@ -1,4 +1,4 @@
-import { solve } from './part1';
+import { solve } from './part2';
 
 describe('day2 part1', () => {
   it('should solve the example', () => {
@@ -7,6 +7,6 @@ describe('day2 part1', () => {
       1-3 b: cdefg
       2-9 c: ccccccccc
     `;
-    expect(solve(input)).toBe(2);
+    expect(solve(input)).toBe(1);
   });
 });

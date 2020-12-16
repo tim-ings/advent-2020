@@ -14,14 +14,14 @@ const threeSum = (inputs: number[], goal: number): [number, number, number] => {
 
 const parse = (input: string): number[] => input.split('\n').map(x => x.trim()).filter(x => x !== '').map(Number);
 
-export const part2 = (input: string): number => {
+export const solve = (input: string): number => {
   const [a, b, c] = threeSum(parse(input), 2020);
   return a * b * c;
 };
 
 const main = async () => {
   const input = await readInput();
-  console.log(part2(input));
+  console.log(solve(input));
 };
 
 main();
