@@ -1,6 +1,6 @@
-import { day1 } from './day1';
+import { part2 } from './part2';
 
-describe('day1', () => {
+describe('day1 part2', () => {
   it('should solve the example', () => {
     const input = `
       1721
@@ -10,6 +10,6 @@ describe('day1', () => {
       675
       1456
     `;
-    expect(day1(input));
+    expect(part2(input)).toBe(241861950);
   });
 });
