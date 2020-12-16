@@ -1,4 +1,3 @@
-import { count } from 'yargs';
 import { readInput } from '../read';
 
 interface Policy {
